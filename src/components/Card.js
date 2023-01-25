@@ -3,7 +3,7 @@ import { AiFillStar } from "react-icons/ai"
 
 const Card = ({ id, img, pricesell, pricedis, title }) => {
     return (
-        <div className='bg-[#1e1e1e] p-5 min-w-[280px]'>
+        <div className='bg-[#1e1e1e] p-5 my-2 min-w-[280px]'>
             <div className=''>
                 <img src={img} />
             </div>
